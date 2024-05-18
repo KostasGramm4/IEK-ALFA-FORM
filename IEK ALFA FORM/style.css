@@ -1,0 +1,188 @@
+body { background-image: url("images/iekalfa.jpg");
+  background-size: cover;}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+form { max-width:420px; margin:50px auto; }
+
+label{
+    color:#ffffff;
+}
+
+[type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:#CC6666;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 4px outset rgb(39, 39, 35);
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #b41a1a;
+  color: rgb(0, 0, 0);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #cfc9c965;
+}
+
+input[type=submit]:hover {
+  background-color: #b41a1a;
+}
+
+.container {
+  border-radius: 20px;
+  padding: 20px;
+  background-size: cover;
+  position: absolute;
+  right: 440px;
+  top: 90px;
+  float:right;
+  width: 20%;
+  font-family: 'arial black', sans-serif;
+  background-color: #cfc9c965;
+}
+
+.container2 {
+  border-radius: 20px;
+  padding: 20px;
+  background-size: cover;
+  position: absolute;
+  left: 220px;
+  top: 100px;
+  float:left;
+  width: 30%;
+  font-family: 'arial black', sans-serif;
+  background-color: #cfc9c965;
+}
+
+.container3 {
+  border-radius: 20px;
+  padding: 20px;
+  background-size: cover;
+  position: absolute;
+  right: 600px;
+  top: 615px;
+  float:center;
+  width: 40%;
+  font-family: 'arial black', sans-serif;
+  background-color: #cfc9c965;
+}
+
+.header1
+{
+  text-shadow: 1px 1px 0px #d1ced4,
+  1px 2px 0px #957dad,
+  1px 3px 0px #957dad,
+  1px 4px 0px #957dad,
+  1px 5px 0px #7d7ead,
+  1px 6px 0px #827dad,
+  1px 10px 5px rgb(255, 255, 255),
+  1px 15px 10px rgb(226, 219, 219),
+  1px 20px 30px rgb(211, 206, 206),
+  1px 25px 50px rgb(173, 172, 172);
+  position: absolute;
+  top: 52.5%;
+  left: 50%;
+  transform: translate(-50%, -610%);
+  padding: 10px;
+  text-align: center;
+  font-family: 'arial black', sans-serif;
+  text-transform: uppercase;
+  font-style: italic;
+  color:#ffffff;
+}
+
+img {
+    padding: 5px;
+    width: 180px;
+}
+
+.copyright
+{
+  color:#ffffff;
+  background-color: rgb(39, 39, 35);
+  border: 2px solid rgb(39, 39, 35);
+  border-radius: 10px;
+  margin-top: 765px;
+  right: 300px;
+  top: 300px;
+  float:center;
+  width: 24%;
+  background-color: #cfc9c965;
+}
+
+.topnav-right {
+  float: right;
+  background-color: #333;
+  overflow: hidden;
+  border-radius: 15px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #cfc9c965;
+  border: 2px solid rgb(39, 39, 35);
+}
+
+.topnav-right a:hover {
+  background-color: #b41a1a;
+  color: rgb(255, 255, 255);
+}
+
+.topnav-right a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.fname
+{
+  background-color: rgba(255, 255, 255, 0.396);
+}
+
+.subject
+{
+  background-color: #ffffff65;
+}
+
+.parartima
+{
+  background-color: rgba(255, 255, 255, 0.396);
+}
+
+.eidikotita
+{
+  background-color: rgba(255, 255, 255, 0.396);
+}
+
+.examino
+{
+  background-color: rgba(255, 255, 255, 0.396);
+}
+
+.country
+{
+  background-color: rgba(255, 255, 255, 0.396);
+}
